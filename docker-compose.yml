@@ -1,0 +1,9 @@
+
+services:
+  app:
+    container_name: app-dev
+    image: python
+    volumes: 
+      - .:/app
+    working_dir: /app
+    entrypoint: ["tail", "-f", "/dev/null"]
