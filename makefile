@@ -24,3 +24,20 @@ reset: # DANGER: Will remove everything in docker images,volumes and even networ
 ## ------------------------
 sh: ## Access app-dev shell
 	docker exec -it app-dev /bin/bash
+
+
+## ------------------------
+## Scrapy Commands
+## ------------------------
+
+startproject:
+	scrapy startproject extract
+
+genspider:
+	scrapy genspider spider https://dataengjobs.com/
+
+fetch:
+	scrapy fetch --nolog 'https://dataengjobs.com/' > response.html
+
+crawl:
+	scrapy crawl data_eng_job -o output.json
