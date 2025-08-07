@@ -180,3 +180,16 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 Scrapy.ipynb
+
+
+# SeleniumBase dependencies
+downloaded_files/
+
+# Debugging images
+*.png
+
+# Learning materials
+learn.py
+refrences.txt
+indeed.py
+extract_indeed.py
