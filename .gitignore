@@ -167,6 +167,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# VS Code
+.vscode/
+
 # Ruff stuff:
 .ruff_cache/
 
@@ -180,3 +183,17 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 Scrapy.ipynb
+
+
+# SeleniumBase dependencies
+downloaded_files/
+
+# Debugging images
+*.png
+
+# Learning materials
+learn.py
+refrences.txt
+indeed.py
+extract_indeed.py
+extract_glassador.py
