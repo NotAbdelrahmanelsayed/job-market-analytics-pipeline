@@ -191,9 +191,13 @@ downloaded_files/
 # Debugging images
 *.png
 
+# Configuration
+config/
+
 # Learning materials
 learn.py
 refrences.txt
 indeed.py
 extract_indeed.py
 extract_glassador.py
+
